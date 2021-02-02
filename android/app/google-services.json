@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078728472707",
+    "firebase_url": "https://rivo-shop-01-default-rtdb.firebaseio.com",
+    "project_id": "rivo-shop-01",
+    "storage_bucket": "rivo-shop-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078728472707:android:2dbbb19d4d35b43bb8c3b6",
+        "android_client_info": {
+          "package_name": "com.example.real_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078728472707-mqtevj1tkt86crfquoq425ljh5pu0d3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.real_shop",
+            "certificate_hash": "861bc8d3246746b5767642b43d3dfcfb218acda7"
+          }
+        },
+        {
+          "client_id": "1078728472707-joebfspo18ckk2mc1smv8vu7qrh9h8c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVaQcRD_A20NU-zPQTBghVxFvUXmAibSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078728472707-joebfspo18ckk2mc1smv8vu7qrh9h8c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

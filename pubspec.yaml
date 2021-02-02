@@ -1,0 +1,48 @@
+name: real_shop
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  device_preview: ^0.5.5
+  firebase_core: ^0.5.3
+  firebase_storage: ^5.2.0
+  http: ^0.12.2
+  image_picker: ^0.6.7+17
+  intl: ^0.16.1
+  provider: ^4.3.2+2
+  shared_preferences: ^0.5.12+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.1"
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/app_icon/shop.jpg"
+
+
+# run this command after add the package and make a save or run pub get and specify icon, you should run this command to generate icon
+# flutter pub run flutter_launcher_icons:main
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/product-placeholder.png
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
